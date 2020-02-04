@@ -1,0 +1,30 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "engines": {
+    "npm": "6.4.1",
+    "node": "10.15.3"
+  },
+  "description": "streaming media hw",
+  "main": "index.js",
+  "scripts": {
+	"start" : "node ./src/server.js",
+	"pretest" : "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaliboss/streaming-media-assignment.git"
+  },
+  "author": "Austin Stone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaliboss/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/kaliboss/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.1"
+  }
+}
